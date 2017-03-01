@@ -427,9 +427,9 @@ a#load{
     display: none;
 }
 
- .item_hover #item_list{
+.item_hover #item_list{
     width: 697px;
-    height:1000px;
+    height:450px;
     background: #FFF;
     border: 1px #c00 solid;
      position: absolute;
@@ -449,7 +449,7 @@ a#load{
     line-height: 29px;
     border-width: 1px 0px;
     padding-right: 5px;
-    z-index:3;
+    z-index:4;
     position: relative;
 }
 #item_list{
@@ -525,6 +525,7 @@ a#load{
     right:9px;
     top:6px;
     background: url(../images/top.png) -56px -204px;
+    cursor:pointer;
 }
 /*nav结束*/
 #top{
